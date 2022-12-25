@@ -2,54 +2,48 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
+  // workbench
+  "workbench.colorTheme": "Andromeda Bordered",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.visible": false,
+  "workbench.tree.indent": 16,
   // editor
   "editor.tabSize": 2,
+  "editor.detectIndentation": true,
   "editor.wordWrap": "on",
   "editor.fontFamily": "Cascadia Code",
-  "editor.fontSize": 17.5,
   "editor.fontLigatures": true,
+  "editor.fontSize": 17.5,
   "editor.cursorBlinking": "expand",
-  "editor.snippetSuggestions": "top",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.lineHeight": 32,
   "editor.minimap.enabled": false,
   "editor.renderLineHighlight": "gutter",
   "editor.guides.indentation": false,
+  "editor.linkedEditing": true,
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
-  "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
-  "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
-  "workbench.startupEditor": "none",
-  "workbench.sideBar.location": "right",
-  "workbench.activityBar.visible": false,
-  // "workbench.colorCustomizations": {
-  //   "editorInlayHint.foreground": "#868686f0",
-  //   "editorInlayHint.background": "#18181800",
-  //   "editorInlayHint.typeForeground": "#486148f0",
-  //   "editorInlayHint.parameterForeground": "#486148f0"
-  // },
+  // etc
   "window.zoomLevel": 1,
   "window.menuBarVisibility": "compact",
   "window.title": "${dirty}${activeEditorMedium}${separator}${rootPath}${separator}${appName}",
   "breadcrumbs.enabled": false,
-  // prettier
+  "javascript.suggest.paths": false,
+  "typescript.suggest.paths": false,
+  // extensions
   "prettier.tabWidth": 2,
   "prettier.printWidth": 100,
   "prettier.semi": false,
   "prettier.bracketSameLine": true,
-  //
+  "vsicons.presets.foldersAllDefaultIcon": true,
   "rapidapi.terminalLink.enabled": true,
-  // JS TS
-  "javascript.suggest.paths": false,
-  // "javascript.inlayHints.parameterTypes.enabled": true,
-  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
-  // "javascript.inlayHints.variableTypes.enabled": true,
-  "typescript.suggest.paths": false,
-  // "typescript.inlayHints.parameterTypes.enabled": true,
-  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
-  // "typescript.inlayHints.variableTypes.enabled": true,
-  "liveServer.settings.donotShowInfoMsg": true
+  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+    "live-server": true,
+    "live-preview": true
+  }
   // end
 }
